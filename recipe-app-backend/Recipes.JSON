@@ -1,0 +1,50 @@
+{ "recipes": [
+    {
+        "id": 0,
+        "name": "Recipe 1",
+        "description": "This is a description",
+        "ingredients": [
+            {
+                "id": 0,
+                "name": "Cucumber",
+                "type": "",
+                "quantity": "1",
+                "unit": "Whole"
+            },
+            {
+                "id": 1,
+                "name": "Tomato",
+                "type": "Cherry",
+                "quantity": "2",
+                "unit": "Ounces"
+            }
+        ],
+        "steps": [
+            {
+                "id": 0,
+                "step": "This is step one."
+            },
+            {
+                "id": 1,
+                "step": "This is step two."
+            }
+        ]
+    },
+
+    {
+        "id": 1,
+        "name": "Recipe 2",
+        "description": "This is another description",
+        "ingredients": [],
+        "steps": []
+    },
+
+    {
+        "id": 2,
+        "name": "Recipe Tres",
+        "description": "This is the third description",
+        "ingredients": [],
+        "steps": []
+    }
+]
+}
